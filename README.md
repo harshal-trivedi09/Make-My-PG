@@ -1,54 +1,51 @@
-# StayNest PG Management System — HTML & CSS
+# 🏠 Make-My-PG
 
-A complete responsive frontend UI for a Paying Guest (PG) Management System.
+A responsive **Paying Guest (PG) Management System** frontend developed using **HTML5 and CSS3**.
 
-## Included
+This project provides a simple and user-friendly interface for users to explore PG accommodations, view PG details, and manage booking-related activities.
+
+## 🚀 Features
+
+### 👤 User Features
 - Home page
-- Login / registration
-- PG listings and filters
-- PG details
-- Booking request form
-- User dashboard
-- Booking history
-- Admin dashboard
-- Add PG form
-- Manage PG table
-- 404 page
-- Responsive CSS
+- User Login
+- User Registration
+- PG Listings
+- PG Search & Filters
+- PG Details
+- Booking Request Form
+- User Dashboard
+- Booking History
 
-## Folder Structure
-```
-pg-management-html-css/
+### 🔐 Admin Features
+- Admin Dashboard
+- Add PG
+- Manage PG Listings
+- View Booking Requests
+- 404 Error Page
+
+## 🛠️ Technologies Used
+
+- HTML5
+- CSS3
+- JavaScript
+
+## 📁 Project Structure
+
+```text
+Make-My-PG/
+│
 ├── index.html
 ├── login.html
 ├── register.html
+├── dashboard.html
+├── booking.html
 ├── pg-listings.html
 ├── pg-details.html
-├── booking.html
-├── dashboard.html
-├── my-bookings.html
-├── admin.html
 ├── add-pg.html
 ├── manage-pg.html
+├── admin.html
+├── my-bookings.html
 ├── 404.html
-├── css/
-│   └── style.css
-├── js/
-└── README.md
-```
-
-## Run
-No server is required for the static frontend. Open `index.html` in a browser, or use VS Code Live Server.
-
-## GitHub
-```bash
-git init
-git add .
-git commit -m "Add PG management frontend"
-git branch -M main
-git remote add origin YOUR_GITHUB_REPOSITORY_URL
-git push -u origin main
-```
-
-## Backend Integration
-The forms and links are frontend-ready. Connect them to your Python Flask backend and MongoDB for real authentication, PG data, bookings, admin actions and database operations.
+├── README.md
+└── .gitignore
