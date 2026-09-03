@@ -1,12 +1,12 @@
-# 🏠 Make-My-PG
+#  Make-My-PG
 
 A responsive **Paying Guest (PG) Management System** frontend developed using **HTML5 and CSS3**.
 
 This project provides a simple and user-friendly interface for users to explore PG accommodations, view PG details, and manage booking-related activities.
 
-## 🚀 Features
+##  Features
 
-### 👤 User Features
+###  User Features
 - Home page
 - User Login
 - User Registration
@@ -17,20 +17,20 @@ This project provides a simple and user-friendly interface for users to explore 
 - User Dashboard
 - Booking History
 
-### 🔐 Admin Features
+###  Admin Features
 - Admin Dashboard
 - Add PG
 - Manage PG Listings
 - View Booking Requests
 - 404 Error Page
 
-## 🛠️ Technologies Used
+##  Technologies Used
 
 - HTML5
 - CSS3
 - JavaScript
 
-## 📁 Project Structure
+##  Project Structure
 
 ```text
 Make-My-PG/
